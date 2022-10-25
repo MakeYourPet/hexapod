@@ -1,7 +1,7 @@
 ## Some quick links to get you started
 Watch the step by step build videos on my [YouTube channel](https://www.youtube.com/makeyourpet).  
 For build questions and to connect with the community join my [Discord server](https://discord.gg/vb8YWMfBuk).  
-A fan-made [wiring diagram](https://www.youtube.com/post/UgkxRCQ6vg4tSpQrOOO5dFXITHAvWPdmMtov) that you may find useful.
+A fan-made [wiring diagram](https://github.com/MakeYourPet/hexapod/blob/e17f780375ec515a243fd1f095b08c75c6c67348/wiring-diagram.png) that you may find useful.
 
 ## About the STL files in this repository
 Some of the parts have multiple versions with slight differences. But all of them are compatible and should work.  

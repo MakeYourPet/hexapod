@@ -1,0 +1,87 @@
+# Any line that starts with a # is a comment.
+# Servo names: L11 L12 ... L33 R11 ... R32 R33
+# Pin names: P0 ... Pn on the (P)rimary board
+# Pin names: S0 ... Sn on the (S)econdary board
+
+# Servo pins and servo calibration values
+#
+# Format: [Servo name] [Pin name] [-45 usec] [+45 usec]
+L11 P15 2000 1000
+L12 P16 2000 1000
+L13 P17 2000 1000
+L21 P09 2000 1000
+L22 P10 2000 1000
+L23 P11 2000 1000
+L31 P03 2000 1000
+L32 P04 2000 1000
+L33 P05 2000 1000
+R11 P12 2000 1000
+R12 P13 2000 1000
+R13 P14 2000 1000
+R21 P06 2000 1000
+R22 P07 2000 1000
+R23 P08 2000 1000
+R31 P00 2000 1000
+R32 P01 2000 1000
+R33 P02 2000 1000
+
+# Touch sensor pins
+# Removing a sensor definition will disable that sensor.
+#
+# Format: [Touch sensor name] [Pin name] [High Active: 0 or 1]
+TS_L1 S5 1
+TS_L2 S3 1
+TS_L3 S1 1
+TS_R1 S4 1
+TS_R2 S2 1
+TS_R3 S0 1
+
+# Voltage and Current sensor pins and calibration values
+# Removing a sensor definition will disable that sensor.
+#
+# Format: [Sensor name] [Pin name] [Pin voltage to read 0] [Pin voltage to read 1]
+CUR S6 2.5 2.444
+VOL S7 0.0 0.2
+
+# Relay switch for the main servo power
+# Remove this line if you do not have a relay.
+#
+# Format: [Output] [Pin name] [High Active: 0 or 1]
+RELAY S11 1
+
+# Length of leg segments in millimeters
+COXA_LEN 43
+FEMUR_LEN 80
+TIBIA_LEN 134
+
+# Distance between the coxa rotation centers of different legs in millimeters.
+L1_TO_R1 126
+L1_TO_L3 167
+L2_TO_R2 163
+
+# The height where the legs connect to the frame.
+LEG_CONNECTION_Z -10
+# The Z value for the leg engpoints when sitting on a flat surface.
+LEG_SITTING_Z -40
+
+# The angle between the servo itself and the leg segment when the servo is centered.
+COXA_ATTACH_ANGLE -8
+FEMUR_ATTACH_ANGLE 35
+TIBIA_ATTACH_ANGLE 71
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# this is intentional.

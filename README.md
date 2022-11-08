@@ -8,3 +8,10 @@ A fan-made [parts list](https://docs.google.com/spreadsheets/d/1jLi3IdmLERsBDhja
 Some of the parts have multiple versions with slight differences. But all of them are compatible and should work.  
 Make sure to check all of them to pick the one that works for you before committing to the print.  
 I use the latest version of each part in my own hexapod, which is the one with the higher number at the end of its name.
+
+
+## Wiring Diagram
+![Fan-made wiring diagram](/wiring-diagram.png)
+
+## Electronic Component Layout
+![Fan-made component layout](/component_layout.jpg)

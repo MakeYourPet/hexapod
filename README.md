@@ -14,4 +14,4 @@ I use the latest version of each part in my own hexapod, which is the one with t
 ![Fan-made wiring diagram](/wiring-diagram.png)
 
 ## Electronic Component Layout
-![Fan-made component layout](/component_layout.jpg)
+<img src="/component%20layout.jpg" height="600" />

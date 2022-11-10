@@ -1,5 +1,5 @@
 ##
-<img src="/Illustrations/yellow2.png" height="400" />
+<img src="/Illustrations/yellow2.png" height="300" />
 
 ## Some quick links to get you started
 Watch the step by step build videos on my [YouTube channel](https://www.youtube.com/makeyourpet).  
@@ -9,10 +9,10 @@ A fan-made [parts list](https://docs.google.com/spreadsheets/d/1jLi3IdmLERsBDhja
   
 ## Illustrations
 <p float="left">
-  <img src="/Illustrations/front-view.png" height="250" />
-  <img src="/Illustrations/back-view.png" height="250" />
-  <img src="/Illustrations/leg-components.png" height="250" />
-  <img src="/Illustrations/tibia-components.png" height="250" />
+  <img src="/Illustrations/front-view.png" height="200" />
+  <img src="/Illustrations/back-view.png" height="200" />
+  <img src="/Illustrations/leg-components.png" height="200" />
+  <img src="/Illustrations/tibia-components.png" height="200" />
 </p>
 
 ## About the STL files in this repository
@@ -25,4 +25,4 @@ I use the latest version of each part in my own hexapod, which is the one with t
 <img src="/wiring-diagram.png" height="300" />
 
 ## Electronic Component Layout
-<img src="/component%20layout.jpg" height="420" />
+<img src="/component%20layout.jpg" height="400" />

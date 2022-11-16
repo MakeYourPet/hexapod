@@ -5,7 +5,7 @@
 Watch the step by step build videos on my [YouTube channel](https://www.youtube.com/makeyourpet).  
 For build questions and to connect with the community join my [Discord server](https://discord.gg/vb8YWMfBuk).  
 A fan-made [wiring diagram](/wiring-diagram.png) that you may find useful.  
-A fan-made [parts list](https://docs.google.com/spreadsheets/d/1jLi3IdmLERsBDhjaqHxFGQgZul_3uq9oj55M1rFG8mY/edit#gid=0). Also another fan-made [parts list](https://docs.google.com/spreadsheets/d/1y--z7EeejWcb-8ooPaIFn3Hulu9dJOcoKyGoxGq8KI8/edit?usp=drivesdk). These are not meant to be a complete list of EVERYTHING that you need, but they cover most of the important and pricier stuff.
+A fan-made [parts list](https://docs.google.com/spreadsheets/d/1jLi3IdmLERsBDhjaqHxFGQgZul_3uq9oj55M1rFG8mY/edit#gid=0). Also another fan-made [parts list](https://docs.google.com/spreadsheets/d/1y--z7EeejWcb-8ooPaIFn3Hulu9dJOcoKyGoxGq8KI8/edit?usp=drivesdk). And here is a [third one](https://github.com/LonelyGhost6/Public/blob/main/part-list.pdf). These are not meant to be a complete list of EVERYTHING that you need, but they cover most of the important and pricier stuff.
   
 ## Illustrations
 <p float="left">

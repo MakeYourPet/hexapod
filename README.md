@@ -20,6 +20,8 @@ Some of the parts have multiple versions with slight differences. But all of the
 Make sure to check all of them to pick the one that works for you before committing to the print.  
 I use the latest version of each part in my own hexapod, which is the one with the higher number at the end of its name.
 
+## Compatible Fan-made 3D printable parts
+Check out [this](https://github.com/almelnz2005/hexapod) repository which has a modified version of the original parts which uses metal horns, M3 Screws and seperated components to make the parts more 3d printer friendlly.
 
 ## Wiring Diagram
 <img src="/wiring-diagram.png" height="300" />

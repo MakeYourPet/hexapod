@@ -4,7 +4,7 @@
 ## Some quick links to get you started
 Watch the step by step build videos on my [YouTube channel](https://www.youtube.com/makeyourpet).  
 For build questions and to connect with the community join my [Discord server](https://discord.gg/vb8YWMfBuk).  
-A fan-made [wiring diagram](/wiring-diagram.png) that you may find useful.  
+A [wiring diagram](/wiring-diagram-servo2040.png) that you may find useful.  
 A fan-made [parts list](https://docs.google.com/spreadsheets/d/1jLi3IdmLERsBDhjaqHxFGQgZul_3uq9oj55M1rFG8mY/edit#gid=0). Also another fan-made [parts list](https://docs.google.com/spreadsheets/d/1y--z7EeejWcb-8ooPaIFn3Hulu9dJOcoKyGoxGq8KI8/edit?usp=drivesdk). And here is a [third one](https://github.com/LonelyGhost6/Public/blob/main/part-list.pdf). These are not meant to be a complete list of EVERYTHING that you need, but they cover most of the important and pricier stuff.
   
 ## Illustrations
@@ -24,7 +24,7 @@ I use the latest version of each part in my own hexapod, which is the one with t
 Check out [this](https://github.com/almelnz2005/hexapod) repository which contains modified (but compatible) versions of the original parts which uses metal horns, M3 screws and seperated components to make the parts more 3D printer friendly. This is especially helpful if you are printing with material other than PLA and have issues with supports or shrinking.
 
 ## Wiring Diagram
-<img src="/wiring-diagram.png" height="300" />
+<img src="/wiring-diagram-servo2040.png" height="300" />
 
 ## Electronic Component Layout
-<img src="/component%20layout.jpg" height="400" />
+<img src="/component-layout.jpg" height="400" />

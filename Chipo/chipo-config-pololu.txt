@@ -1,0 +1,107 @@
+# Any line that starts with a # is a comment.
+# Servo names: L11 L12 ... L33 R11 ... R32 R33
+# Pin names: P0 ... Pn on the (P)rimary board
+# Pin names: S0 ... Sn on the (S)econdary board
+
+# Servo pins and servo calibration values
+#
+# Format: [Servo name] [Pin name] [-45 usec] [+45 usec]
+L11 P15 1995 980
+L12 P16 1960 945
+L13 P17 2020 1040
+L21 P09 2005 1005
+L22 P10 1965 970
+L23 P11 2005 1010
+L31 P03 2020 1060
+L32 P04 2050 1065
+L33 P05 1945 970
+R11 P12 1930 920
+R12 P13 2040 1060
+R13 P14 2010 1015
+R21 P06 1990 1010
+R22 P07 1930 945
+R23 P08 2040 1050
+R31 P00 2020 1050
+R32 P01 2045 1080
+R33 P02 1970 960
+
+# Touch sensor pins
+# Removing a sensor definition will disable that sensor.
+#
+# Format: [Touch sensor name] [Pin name] [High Active: 0 or 1]
+TS_L1 S5 1
+TS_L2 S3 1
+TS_L3 S1 1
+TS_R1 S4 1
+TS_R2 S2 1
+TS_R3 S0 1
+
+# Voltage and Current sensor pins and calibration values
+# Removing a sensor definition will disable that sensor.
+#
+# Format: [Sensor name] [Pin name] [Pin voltage to read 0] [Pin voltage to read 1]
+CUR S6 2.5 2.444
+VOL S7 0.0 0.2
+
+# Voltage and Current warning and shut off levels.
+# The levels are upper limits for current, and lower limits for voltage readings.
+# Warning/Shut off will get triggered if the reading stays in the specified level for more than
+# "Activation duration" seconds.
+#
+# Format: [Sensor name] [Activation duration] [Warning level] [Shut off level] [Beep count]
+WARN_CUR 2 5 7 3
+WARN_VOL 2 5.4 5 3
+
+# Relay switch for the main servo power
+# Remove this line if you do not have a relay.
+#
+# Format: [Output] [Pin name] [High Active: 0 or 1]
+RELAY S11 1
+
+# The placement of the legs and animation settings
+#
+# Format: [Mode name] [Leg radius] [Corner leg angle] [Elongation] [Body Lift]
+#         [Step lift] [Vertical touch sensors correction] [Speed factor] [Animation factor]
+MODE_STANDARD  190 55 1.15  40 30  10 0.7 1.0
+MODE_RACE      190 55 1.20  35 20   0 1.0 0.0
+MODE_OFFROAD   210 55 1.15  60 60 120 0.6 1.0
+MODE_CUSTOM    190 55 1.15  40 40  10 1.0 1.0
+MODE_QUADRUPED 210 60 1.00  45 30   0 0.7 1.0
+MODE_BLOCK     185 30 1.07 -40 80   0 1.0 1.0
+
+# Length of leg segments in millimeters
+COXA_LEN 43
+FEMUR_LEN 60
+TIBIA_LEN 104
+
+# Distance between the coxa rotation centers of different legs in millimeters.
+L1_TO_R1 126
+L1_TO_L3 167
+L2_TO_R2 163
+
+# The height where the legs connect to the frame.
+LEG_CONNECTION_Z -7
+# The Z value for the leg endpoints when sitting on a flat surface.
+LEG_SITTING_Z -40
+
+# The angle between the servo itself and the leg segment when the servo is centered.
+COXA_ATTACH_ANGLE -8
+FEMUR_ATTACH_ANGLE 35
+TIBIA_ATTACH_ANGLE 83
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# this is intentional.
